@@ -7,6 +7,11 @@ use Mojo::URL;
 use constant DEFAULT_CARD_SETS => [
 	1151,1152,100211,1155,1256,100154,100415,100257,1153,1154,1488,100422,
 	100049,100050,100051,100312,100485,100560,100532,100531,100017
+	,111000 # Crabs Adjust Humidity Volume 7
+	,111200 # Crabs Adjust Humidity Volume 5
+	,111400 # Crabs Adjust Humidity Volume 3
+	,112000 # Cards Against Humanity Green Box Expansion
+	,999000 # House cards
 ];
 
 # config from cah_cards.conf
