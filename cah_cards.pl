@@ -11,6 +11,7 @@ use constant DEFAULT_CARD_SETS => [
 	,111200 # Crabs Adjust Humidity Volume 5
 	,111400 # Crabs Adjust Humidity Volume 3
 	,112000 # Cards Against Humanity Green Box Expansion
+    ,200000 # Absurd Box
 	,999000 # House cards
 ];
 
