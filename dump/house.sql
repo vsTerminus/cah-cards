@@ -20,8 +20,8 @@ insert into white_cards (id, text, watermark) values (999008, 'HellAshes.', 'hou
 insert into white_cards (id, text, watermark) values (999009, 'Morgonius.', 'house');
 insert into white_cards (id, text, watermark) values (999010, 'WolfSamurai.', 'house');
 insert into white_cards (id, text, watermark) values (999011, 'Confury.', 'house');
-insert into white_cards (id, text, watermark) values (999012, 'Skitch.', 'house');
-insert into white_cards (id, text, watermark) values (999013, 'dfopsajff.', 'house');
+insert into white_cards (id, text, watermark) values (999012, 'bsparks.', 'house');
+insert into white_cards (id, text, watermark) values (999013, 'The Bot.', 'house');
 insert into white_cards (id, text, watermark) values (999014, 'Xyzzy.', 'house');
 insert into white_cards (id, text, watermark) values (999015, 'ajanata.', 'house');
 insert into white_cards (id, text, watermark) values (999016, 'Grinnz.', 'house');
@@ -32,12 +32,12 @@ insert into white_cards (id, text, watermark) values (999020, 'Brojomo.', 'house
 insert into white_cards (id, text, watermark) values (999021, 'Khead161.', 'house');
 insert into white_cards (id, text, watermark) values (999022, 'Knightsofservia.', 'house');
 insert into white_cards (id, text, watermark) values (999023, 'victoria.', 'house');
-insert into white_cards (id, text, watermark) values (999024, 'Tay.', 'house');
-insert into white_cards (id, text, watermark) values (999025, 'Jewker.', 'house');
-insert into white_cards (id, text, watermark) values (999026, 'Szernex.', 'house');
+insert into white_cards (id, text, watermark) values (999024, 'decoytroy.', 'house');
+insert into white_cards (id, text, watermark) values (999025, 'BrianBAM19.', 'house');
+insert into white_cards (id, text, watermark) values (999026, 'dho.', 'house');
 insert into white_cards (id, text, watermark) values (999027, 'VincentsSin.', 'house');
-insert into white_cards (id, text, watermark) values (999028, 'Yuyukirby.', 'house');
-insert into white_cards (id, text, watermark) values (999029, 'Duckie.', 'house');
+insert into white_cards (id, text, watermark) values (999028, 'Gadzooks.', 'house');
+insert into white_cards (id, text, watermark) values (999029, 'Villene.', 'house');
 insert into white_cards (id, text, watermark) values (999030, 'New Jersey.', 'house');
 insert into white_cards (id, text, watermark) values (999031, 'Winnipeg.', 'house');
 insert into white_cards (id, text, watermark) values (999032, 'Kentucky.', 'house');
