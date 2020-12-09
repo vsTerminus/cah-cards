@@ -91,6 +91,9 @@ group {
 	get '/rand' => sub {
 		my $c = shift;
 		my $tx = $c->render_later->tx;
+        my $max_words = $c->param('max_words') // 99;
+        return $c->render(json => { error => "Invalid max_words parameter '$max_words' (must be positive integer between 1 and 99)" })
+            unless $max_words =~ /^\d+$/ and $max_words > 0 and $max_words < 100;
 		
 		my $card_sets = $c->every_param('card_set');
 		$card_sets = app->config->{card_sets} // [] unless @$card_sets;
@@ -98,9 +101,13 @@ group {
 		return $c->render(json => { error => "Invalid count parameter $count (must be positive integer between 1 and 10)" })
 			unless $count =~ /^\d+$/ and $count > 0 and $count <= 10;
 		
-		my $query = 'SELECT "wc"."text" FROM "white_cards" AS "wc" ' .
+		my $query = 
+            'SELECT "wc"."text", sum(array_length(regexp_split_to_array("wc"."text", \'\s\'),1)) "wordcount" ' .
+            'FROM "white_cards" AS "wc" ' .
 			'INNER JOIN "card_set_white_card" AS "cswc" ON "cswc"."white_card_id"="wc"."id" ' .
-			'WHERE "cswc"."card_set_id" = ANY ($1) GROUP BY "wc"."id" ' .
+			'WHERE "cswc"."card_set_id" = ANY ($1) ' .
+            'GROUP BY "wc"."id" ' .
+            'HAVING sum(array_length(regexp_split_to_array("wc"."text", \'\s\'),1)) <= ' . $max_words .
 			'ORDER BY random() LIMIT $2';
 		$c->pg->db->query_p($query, $card_sets, $count)
 			->then(sub { $c->render(json => { cards => shift->hashes->to_array }) })
