@@ -19,7 +19,7 @@ insert into white_cards (id, text, watermark) values (999007, 'captainkate.', 'h
 insert into white_cards (id, text, watermark) values (999008, 'HellAshes.', 'house');
 insert into white_cards (id, text, watermark) values (999009, 'Morgonius.', 'house');
 insert into white_cards (id, text, watermark) values (999010, 'WolfSamurai.', 'house');
-insert into white_cards (id, text, watermark) values (999011, 'Confury.', 'house');
+insert into white_cards (id, text, watermark) values (999011, 'Communism.', 'house');
 insert into white_cards (id, text, watermark) values (999012, 'bsparks.', 'house');
 insert into white_cards (id, text, watermark) values (999013, 'The Bot.', 'house');
 insert into white_cards (id, text, watermark) values (999014, 'Xyzzy.', 'house');
@@ -30,11 +30,11 @@ insert into white_cards (id, text, watermark) values (999018, 'decoytroy.', 'hou
 insert into white_cards (id, text, watermark) values (999019, 'Villene.', 'house');
 insert into white_cards (id, text, watermark) values (999020, 'Brojomo.', 'house');
 insert into white_cards (id, text, watermark) values (999021, 'Khead161.', 'house');
-insert into white_cards (id, text, watermark) values (999022, 'Knightsofservia.', 'house');
-insert into white_cards (id, text, watermark) values (999023, 'victoria.', 'house');
+insert into white_cards (id, text, watermark) values (999022, 'Aigisofservia.', 'house');
+insert into white_cards (id, text, watermark) values (999023, 'Lex.', 'house');
 insert into white_cards (id, text, watermark) values (999024, 'decoytroy.', 'house');
 insert into white_cards (id, text, watermark) values (999025, 'BrianBAM19.', 'house');
-insert into white_cards (id, text, watermark) values (999026, 'dho.', 'house');
+insert into white_cards (id, text, watermark) values (999026, 'Socialism.', 'house');
 insert into white_cards (id, text, watermark) values (999027, 'VincentsSin.', 'house');
 insert into white_cards (id, text, watermark) values (999028, 'Gadzooks.', 'house');
 insert into white_cards (id, text, watermark) values (999029, 'Villene.', 'house');
