@@ -61,7 +61,7 @@ insert into white_cards (id, text, watermark) values (111249, 'A turbo-encabulat
 insert into white_cards (id, text, watermark) values (111250, 'Wink wink, nudge nudge!', 'crab5');
 insert into white_cards (id, text, watermark) values (111251, 'Alzheimer''s.', 'crab5');
 insert into white_cards (id, text, watermark) values (111252, 'ALLAH HU AKBAR!', 'crab5');
-insert into white_cards (id, text, watermark) values (111253, 'Being raped to sleep by dickwolves.', 'crab5');
+insert into white_cards (id, text, watermark) values (111253, 'A bag of dicks.', 'crab5');
 insert into white_cards (id, text, watermark) values (111254, 'Being a size queen.', 'crab5');
 insert into white_cards (id, text, watermark) values (111255, 'Skanky Smurf.', 'crab5');
 insert into white_cards (id, text, watermark) values (111256, 'A whole baby.', 'crab5');

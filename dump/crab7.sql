@@ -18,7 +18,7 @@ insert into white_cards (id, text, watermark) values (111006,'Dropping the soap.
 insert into white_cards (id, text, watermark) values (111007,'Gravity.','crab7');
 insert into white_cards (id, text, watermark) values (111008,'Safe, low-voltage stimulation.','crab7');
 insert into white_cards (id, text, watermark) values (111009,'A bulldog eating mayonnaise.','crab7');
-insert into white_cards (id, text, watermark) values (111010,'A bull dyke in a china shop.','crab7');
+insert into white_cards (id, text, watermark) values (111010,'A bull in a china shop.','crab7');
 insert into white_cards (id, text, watermark) values (111011,'Not knowing when to stop.','crab7');
 insert into white_cards (id, text, watermark) values (111012,'A cry for help.','crab7');
 insert into white_cards (id, text, watermark) values (111013,'Grab-ass.','crab7');
@@ -77,7 +77,7 @@ insert into white_cards (id, text, watermark) values (111065,'Throwing another p
 insert into white_cards (id, text, watermark) values (111066,'White girl dreads.','crab7');
 insert into white_cards (id, text, watermark) values (111067,'Optional lumbar support.','crab7');
 insert into white_cards (id, text, watermark) values (111068,'Grabbing them by the pussy.','crab7');
-insert into white_cards (id, text, watermark) values (111069,'Getting a bit "rapey" at night sometimes.','crab7');
+insert into white_cards (id, text, watermark) values (111069,'Getting a bit sleepy at night sometimes.','crab7');
 insert into white_cards (id, text, watermark) values (111070,'A pale rider, and his name was Death.','crab7');
 insert into white_cards (id, text, watermark) values (111071,'A Schlong of Ice and Fire.','crab7');
 insert into white_cards (id, text, watermark) values (111072,'A really stupid mustache.','crab7');

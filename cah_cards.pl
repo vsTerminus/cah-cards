@@ -3,15 +3,36 @@
 use Mojolicious::Lite;
 use Mojo::Pg;
 use Mojo::URL;
+use Data::Dumper;
 
 use constant DEFAULT_CARD_SETS => [
-	1151,1152,100211,1155,1256,100154,100415,100257,1153,1154,1488,100422,
-	100049,100050,100051,100312,100485,100560,100532,100531,100017
-	,111000 # Crabs Adjust Humidity Volume 7
-	,111200 # Crabs Adjust Humidity Volume 5
+     125000 # Base Game
+    ,121000 # 1st Expansion
+    ,122000 # 2nd Expansion
+    ,123000 # 3rd Expansion
+    ,124000 # 4th Expansion
+    ,114000 # 5th Expansion
+    ,115000 # 6th Expansion
+    ,116000 # Family Edition
+    ,126000 # Canadian Expansion
+    ,127000 # UK Expansion
+    #,1488   # 2012 Holiday Expansion
+    #,100049 # PAX East 2013 Pack A
+    #,100050 # PAX East 2013 Pack B
+    #,100051 # PAX East 2013 Pack C
+    #,100312 # PAX Prime 2013 Expansion
+    #,100422 # 2013 Holiday Bullshit
+    #,100257 # Box Expansion
+	,112000 # Green Box Expansion
+    ,113000 # Everything Box Expansion
+    ,200000 # Absurd Box Expansion
+	,117000 # Crabs Adjust Humidity Volume 1
+    ,118000 # Crabs Adjust Humidity Volume 2
 	,111400 # Crabs Adjust Humidity Volume 3
-	,112000 # Cards Against Humanity Green Box Expansion
-    ,200000 # Absurd Box
+    ,119000 # Crabs Adjust Humidity Volume 4
+	,111200 # Crabs Adjust Humidity Volume 5
+    ,112000 # Crabs Adjust Humidity Volume 6
+    ,111000 # Crabs Adjust Humidity Volume 7
 	,999000 # House cards
 ];
 
@@ -107,7 +128,7 @@ group {
 			'INNER JOIN "card_set_white_card" AS "cswc" ON "cswc"."white_card_id"="wc"."id" ' .
 			'WHERE "cswc"."card_set_id" = ANY ($1) ' .
             'GROUP BY "wc"."id" ' .
-            'HAVING sum(array_length(regexp_split_to_array("wc"."text", \'\s\'),1)) <= ' . $max_words .
+            'HAVING sum(array_length(regexp_split_to_array("wc"."text", \'\s\'),1)) <= ' . $max_words . ' ' .
 			'ORDER BY random() LIMIT $2';
 		$c->pg->db->query_p($query, $card_sets, $count)
 			->then(sub { $c->render(json => { cards => shift->hashes->to_array }) })
@@ -127,6 +148,41 @@ group {
 			->then(sub { $c->render(json => { card => shift->hash }) })
 			->catch(sub { $c->reply->exception(shift); undef $tx });
 	};
+};
+
+group {
+    under '/cards/add';
+    get '/white' => sub {
+        my $c = shift;
+        my $tx = $c->render_later->tx;
+        
+        # We are adding to the house deck
+        my $deck_id = 999000;
+        my $watermark = 'house';
+
+        # Card text?
+        my $card_text = $c->param('text');
+        say "Card text: $card_text";
+
+        # What is the current highest card ID?
+        my $card_id = $deck_id;
+        my $query = 'SELECT max("wc"."id") FROM "white_cards" AS "wc"';
+        $c->pg->db->query_p($query)
+            ->then(sub { 
+                    my $json = shift->hash;
+                    $card_id = $json->{'max'} +1;
+                
+                    my $query1 = 'INSERT INTO "white_cards" ("id", "text", "watermark") VALUES ($1, $2, $3)';
+                    my $query2 = 'INSERT INTO "card_set_white_card" ("card_set_id", "white_card_id") values ($1, $2)';
+
+                    $c->pg->db->query_p($query1, $card_id, $card_text, $watermark)
+                    ->then(sub{ 
+                        $c->pg->db->query_p($query2, $deck_id, $card_id)
+                        ->then(sub{ $c->render(json => { $card_id => $card_text }) })
+                    })
+            })
+            ->catch(sub { $c->reply->exception(shift); undef $tx; });
+    };
 };
 
 app->start;

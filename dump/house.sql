@@ -127,6 +127,9 @@ insert into white_cards (id, text, watermark) values (999115, 'Titties', 'house'
 insert into white_cards (id, text, watermark) values (999116, 'PENIS', 'house');
 insert into white_cards (id, text, watermark) values (999117, 'VAGINA', 'house');
 insert into white_cards (id, text, watermark) values (999118, 'BREASTS', 'house');
+insert into white_cards (id, text, watermark) values (999119, 'Spockle', 'house');
+insert into white_cards (id, text, watermark) values (999120, 'Vandal', 'house');
+
 
 insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999000);
 insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999001);
@@ -247,6 +250,8 @@ insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999
 insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999116);
 insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999117);
 insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999118);
+insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999119);
+insert into card_set_white_card (card_set_id, white_card_id) values (999000, 999120);
 
 insert into black_cards (id, text, draw, pick, watermark) values (999500, 'I fucking hate ____.', 0, 1, 'house');
 insert into black_cards (id, text, draw, pick, watermark) values (999501, 'I hate fucking ____.', 0, 1, 'house');
@@ -308,9 +313,10 @@ insert into black_cards (id, text, draw, pick, watermark) values (999556, 'Alexa
 insert into black_cards (id, text, draw, pick, watermark) values (999557, 'Ok Google, Add ____ to my calendar for tomorrow.', 0, 1, 'house');
 insert into black_cards (id, text, draw, pick, watermark) values (999558, 'Alexa, give me ____.', 0, 1, 'house');
 insert into black_cards (id, text, draw, pick, watermark) values (999559, 'Ok Google, tell me about ____.', 0, 1, 'house');
-insert into black_cards (id, text, draw, pick, watermark) values (999560, 'Alexa, is ____ kind of like ____?', 0, 1, 'house');
+insert into black_cards (id, text, draw, pick, watermark) values (999560, 'Alexa, is ____ kind of like ____?', 0, 2, 'house');
 insert into black_cards (id, text, draw, pick, watermark) values (999561, 'Ok Google, where can I find ____?', 0, 1, 'house');
 insert into black_cards (id, text, draw, pick, watermark) values (999562, 'Ok Google, remind me to get ____ tomorrow.', 0, 1, 'house');
+insert into black_cards (id, text, draw, pick, watermark) values (999563, 'Ladies and Gentlemen, my name is Totalbiscuit and I''m here to ask and answer one simple question. WTF is ____?', 0, 1, 'house');
 
 insert into card_set_black_card (card_set_id, black_card_id) values (999000, 999500);
 insert into card_set_black_card (card_set_id, black_card_id) values (999000, 999501);
@@ -375,5 +381,7 @@ insert into card_set_black_card (card_set_id, black_card_id) values (999000, 999
 insert into card_set_black_card (card_set_id, black_card_id) values (999000, 999560);
 insert into card_set_black_card (card_set_id, black_card_id) values (999000, 999561);
 insert into card_set_black_card (card_set_id, black_card_id) values (999000, 999562);
+insert into card_set_black_card (card_set_id, black_card_id) values (999000, 999563);
+
 
 COMMIT;
