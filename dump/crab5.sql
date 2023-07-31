@@ -173,7 +173,7 @@ insert into card_set_white_card (card_set_id, white_card_id) values (111200, 111
 insert into black_cards (id, text, draw, pick, watermark) values (111300, 'Next on Adult Swim™: *The Adventures of* ____ *and* ____.', 0, 2, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111301, 'As a staunch libertarian, I believe the only role for government is ____.', 0, 1, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111302, 'Baby I''m ____ on the streets, ____ in the sheets.', 0, 2, 'crab5');
-insert into black_cards (id, text, draw, pick, watermark) values (111303, 'Forget *Fifty Shades of Grey*...'||chr(10)||'Give me *Fifty Shades of* ____!', 0, 2, 'crab5');
+insert into black_cards (id, text, draw, pick, watermark) values (111303, 'Forget *Fifty Shades of Grey*...'||chr(10)||'Give me *Fifty Shades of* ____!', 0, 1, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111304, '____ is many things to many people, as you will see an learn.', 0, 1, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111305, 'When I was young, the only thing that kept me off the streets was ____.', 0, 1, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111306, 'Why do I need feminism?', 0, 1, 'crab5');

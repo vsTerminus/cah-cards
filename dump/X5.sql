@@ -201,7 +201,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (114016, 'Now i
 insert into card_set_black_card (card_set_id, black_card_id) values (114000, 114016);
 insert into black_cards (id, text, draw, pick, watermark) values (114017, 'Patient presents with ____ . Likely a result of ____.', '1', '2', 'X5');
 insert into card_set_black_card (card_set_id, black_card_id) values (114000, 114017);
-insert into black_cards (id, text, draw, pick, watermark) values (114018, 'Well if ____ is good enough for ____, it''s good enough for me.', '0', '1', 'X5');
+insert into black_cards (id, text, draw, pick, watermark) values (114018, 'Well if ____ is good enough for ____, it''s good enough for me.', '1', '2', 'X5');
 insert into card_set_black_card (card_set_id, black_card_id) values (114000, 114018);
 insert into black_cards (id, text, draw, pick, watermark) values (114019, 'Well what do you have to say for yourself, Casey? This is the third time you''ve been sent to the principal''s office for ____.', '0', '1', 'X5');
 insert into card_set_black_card (card_set_id, black_card_id) values (114000, 114019);

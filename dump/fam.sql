@@ -787,7 +787,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (116040, 'My na
 insert into card_set_black_card (card_set_id, black_card_id) values (116000, 116040);
 insert into black_cards (id, text, draw, pick, watermark) values (116041, 'Never fear, Captain ____ is here!', '0', '1', 'fam');
 insert into card_set_black_card (card_set_id, black_card_id) values (116000, 116041);
-insert into black_cards (id, text, draw, pick, watermark) values (116042, 'New from Mattel! It''s BUNGO: The Game of ____."', '0', '1', 'fam');
+insert into black_cards (id, text, draw, pick, watermark) values (116042, 'New from Mattel! It''s "BUNGO: The Game of ____."', '0', '1', 'fam');
 insert into card_set_black_card (card_set_id, black_card_id) values (116000, 116042);
 insert into black_cards (id, text, draw, pick, watermark) values (116043, 'Next from J.K. Rowling: Harry Potter and the Chamber of ____.', '0', '1', 'fam');
 insert into card_set_black_card (card_set_id, black_card_id) values (116000, 116043);

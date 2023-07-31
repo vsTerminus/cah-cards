@@ -548,9 +548,9 @@ insert into black_cards (id, text, draw, pick, watermark) values (113534,'"The f
 insert into black_cards (id, text, draw, pick, watermark) values (113535,'The year is 2150. The president is ____.',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113536,'There is a video circulating the Internet that does not represent who I am. I made a vile mistake in my youth, and I deeply regret it. Please don''t watch the ____ video.',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113537,'Today''s technical challenge comes from Paul Hollywood. He would like six identical pastries in the shape of ____.',0,1,'every');
-insert into black_cards (id, text, draw, pick, watermark) values (113538,'"Two roads diverged in a yellow wood--',0,1,'every');
-insert into black_cards (id, text, draw, pick, watermark) values (113539,'I chose ____,',0,1,'every');
-insert into black_cards (id, text, draw, pick, watermark) values (113540,'And that has made all the difference."',0,1,'every');
+insert into black_cards (id, text, draw, pick, watermark) values (113538,'"Two roads diverged in a yellow wood-- I chose ____, and that has made all the difference"',0,1,'every');
+insert into black_cards (id, text, draw, pick, watermark) values (113539,'"Two roads diverged in a yellow wood-- I chose ____."',0,1,'every');
+insert into black_cards (id, text, draw, pick, watermark) values (113540,'Up next on Fox News: Are millennials ruining ____? Yes. Yes they are.',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113541,'Up next on Fox News: Are college students being radicalized by ____?',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113542,'WARNING: ____ may cause ____.',1,2,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113543,'Welcome the jungle! We''ve got ____.',0,1,'every');

@@ -203,7 +203,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (118002, '"""Yo
 insert into card_set_black_card (card_set_id, black_card_id) values (118000, 118002);
 insert into black_cards (id, text, draw, pick, watermark) values (118003, 'A new Russian dash-cam video shows ____, right there in the middle of the street!', '0', '1', 'crab2');
 insert into card_set_black_card (card_set_id, black_card_id) values (118000, 118003);
-insert into black_cards (id, text, draw, pick, watermark) values (118004, 'An ounce of ____ is worth a pound of ____.', '0', '1', 'crab2');
+insert into black_cards (id, text, draw, pick, watermark) values (118004, 'An ounce of ____ is worth a pound of ____.', '1', '2', 'crab2');
 insert into card_set_black_card (card_set_id, black_card_id) values (118000, 118004);
 insert into black_cards (id, text, draw, pick, watermark) values (118005, 'Apple® has announced a new device that promises to revolutionize the way we think about ____.', '0', '1', 'crab2');
 insert into card_set_black_card (card_set_id, black_card_id) values (118000, 118005);

@@ -197,7 +197,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (122008, 'I spe
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122008);
 insert into black_cards (id, text, draw, pick, watermark) values (122009, 'I went from ____ to ____, all thanks to ____.', '2', '3', 'X2');
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122009);
-insert into black_cards (id, text, draw, pick, watermark) values (122010, 'If God didn''t want us to enjoy ____, he wouldn''t have given us ____.', '0', '1', 'X2');
+insert into black_cards (id, text, draw, pick, watermark) values (122010, 'If God didn''t want us to enjoy ____, he wouldn''t have given us ____.', '1', '2', 'X2');
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122010);
 insert into black_cards (id, text, draw, pick, watermark) values (122011, 'In his newest and most difficult stunt, David Blaine must escape from ____.', '0', '1', 'X2');
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122011);

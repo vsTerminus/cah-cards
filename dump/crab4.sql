@@ -179,7 +179,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (119003, '____:
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119003);
 insert into black_cards (id, text, draw, pick, watermark) values (119004, '9-1-1, what''s your emergency?', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119004);
-insert into black_cards (id, text, draw, pick, watermark) values (119005, 'Ancient Chinese proverb say: ____ is just ____ without ____.', '0', '1', 'crab4');
+insert into black_cards (id, text, draw, pick, watermark) values (119005, 'Ancient Chinese proverb say: ____ is just ____ without ____.', '2', '3', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119005);
 insert into black_cards (id, text, draw, pick, watermark) values (119006, 'Bowing to years of pressure, the Washington Redskins have officially been renamed the Washington ____.', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119006);
@@ -193,9 +193,9 @@ insert into black_cards (id, text, draw, pick, watermark) values (119010, 'Fuddr
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119010);
 insert into black_cards (id, text, draw, pick, watermark) values (119011, 'Go-Go-Gadget ____!', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119011);
-insert into black_cards (id, text, draw, pick, watermark) values (119012, '"I am ____.', '0', '1', 'crab4');
+insert into black_cards (id, text, draw, pick, watermark) values (119012, '"I am ____. I speak for ____."', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119012);
-insert into black_cards (id, text, draw, pick, watermark) values (119013, 'I speak for ____."', '0', '1', 'crab4');
+insert into black_cards (id, text, draw, pick, watermark) values (119013, 'I am ____. I represent ____."', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119013);
 insert into black_cards (id, text, draw, pick, watermark) values (119014, 'If laughter is the best medicine, the second best is ____.', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119014);

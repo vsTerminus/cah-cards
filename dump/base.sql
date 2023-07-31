@@ -2933,7 +2933,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (125039, 'Anthr
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125039);
 insert into black_cards (id, text, draw, pick, watermark) values (125040, 'Arby''s: We Have ____.', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125040);
-insert into black_cards (id, text, draw, pick, watermark) values (125041, '"Are you thinking what I''m thinking, B1? I think I am, B2: It''s ____ time!', '0', '1', 'base');
+insert into black_cards (id, text, draw, pick, watermark) values (125041, '"Are you thinking what I''m thinking, B1?" "I think I am, B2: It''s ____ time!"', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125041);
 insert into black_cards (id, text, draw, pick, watermark) values (125042, '"Are you pondering what I''m pondering, Pinky?" "Well I think so Brain, but where are we gonna find ____?"', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125042);
@@ -2943,7 +2943,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (125044, 'As th
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125044);
 insert into black_cards (id, text, draw, pick, watermark) values (125045, 'As the mum of five rambunctious boys, I''m no stranger to ____.', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125045);
-insert into black_cards (id, text, draw, pick, watermark) values (125046, 'Betcha can''t have just one!', '0', '1', 'base');
+insert into black_cards (id, text, draw, pick, watermark) values (125046, '____? Betcha can''t have just one!', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125046);
 insert into black_cards (id, text, draw, pick, watermark) values (125047, 'BILLY MAYS HERE FOR ____.', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125047);
@@ -3247,11 +3247,11 @@ insert into black_cards (id, text, draw, pick, watermark) values (125196, 'Skida
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125196);
 insert into black_cards (id, text, draw, pick, watermark) values (125197, 'Sorry everyone, I just ____.', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125197);
-insert into black_cards (id, text, draw, pick, watermark) values (125198, '"Step 1: ____.', '0', '1', 'base');
+insert into black_cards (id, text, draw, pick, watermark) values (125198, '"Step 1: ____. Step 2: ____. Step 3: Profit."', '1', '2', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125198);
-insert into black_cards (id, text, draw, pick, watermark) values (125199, 'Step 2: ____.', '0', '1', 'base');
+insert into black_cards (id, text, draw, pick, watermark) values (125199, '"Step 1: ____. Step 2: ____. Step 3: ____.', '2', '3', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125199);
-insert into black_cards (id, text, draw, pick, watermark) values (125200, 'Step 3: Profit."', '0', '1', 'base');
+insert into black_cards (id, text, draw, pick, watermark) values (125200, '"Step 1: ____. Step 2: ____. Step 3: Profit."', '1', '2', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125200);
 insert into black_cards (id, text, draw, pick, watermark) values (125201, 'Studies show that lab rats navigate mazes 50% faster after being exposed to ____.', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125201);

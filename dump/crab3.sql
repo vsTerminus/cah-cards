@@ -185,7 +185,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (111511,'The ni
 insert into black_cards (id, text, draw, pick, watermark) values (111512,'Utah is considering the legalization of ____.', 0, 1, 'crab3');
 insert into black_cards (id, text, draw, pick, watermark) values (111513,'In Valhalla, it is said that all brave warriors are given ____.', 0, 1, 'crab3');
 insert into black_cards (id, text, draw, pick, watermark) values (111514,'How did I get through college?', 0, 1, 'crab3');
-insert into black_cards (id, text, draw, pick, watermark) values (111515,'Topping this week''s non-fiction best-sellers: "____: the art of living with ____.', 0, 2, 'crab3');
+insert into black_cards (id, text, draw, pick, watermark) values (111515,'Topping this week''s non-fiction best-sellers: "____: the art of living with ____."', 0, 2, 'crab3');
 insert into black_cards (id, text, draw, pick, watermark) values (111516,'____: Provided by the management for your protection.', 0, 1, 'crab3');
 insert into black_cards (id, text, draw, pick, watermark) values (111517,'I''ve designed a spaceship powered by the energy released when you combine ____ and ____.', 0, 1, 'crab3');
 insert into black_cards (id, text, draw, pick, watermark) values (111518,'Before I got laid off, I never pictured a career in ____.', 0, 1, 'crab3');
