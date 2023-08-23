@@ -1,0 +1,61 @@
+BEGIN;
+
+delete from card_set_white_card where card_set_id = 160000;
+delete from card_set_black_card where card_set_id = 160000;
+delete from white_cards where id >= 160000 and id <= 160999;
+delete from black_cards where id >= 160000 and id <= 160999;
+delete from card_set where id=160000;
+
+insert into card_set (id, active, name, base_deck, description, weight) values (160000, 't', 'Desert Bus For Hope Pack', 'f', 'One of the rewards for those that backed the Desert Bus For Hope: The Documentary Kickstarter at the CA  level.', 999);
+
+insert into white_cards (id, text, watermark) values (160000, '$10,000 worth of silica gel.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160000);
+insert into white_cards (id, text, watermark) values (160001, 'A bathroom only for poop.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160001);
+insert into white_cards (id, text, watermark) values (160002, 'A chair-shaped fart sponge.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160002);
+insert into white_cards (id, text, watermark) values (160003, 'A lethal dose of caffeine.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160003);
+insert into white_cards (id, text, watermark) values (160004, 'Accidentally broadcasting an NSFW video to 5,000 people.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160004);
+insert into white_cards (id, text, watermark) values (160005, 'An encyclopedic knowledge of Night Court.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160005);
+insert into white_cards (id, text, watermark) values (160006, 'Belting out the chorus of a popular song and mumbling through the rest.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160006);
+insert into white_cards (id, text, watermark) values (160007, 'Bill''s mom.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160007);
+insert into white_cards (id, text, watermark) values (160008, 'Desert Bus.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160008);
+insert into white_cards (id, text, watermark) values (160009, 'Doing it for the children.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160009);
+insert into white_cards (id, text, watermark) values (160010, 'Having no idea what the fuck is going on.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160010);
+insert into white_cards (id, text, watermark) values (160011, 'Letting the internet feed you.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160011);
+insert into white_cards (id, text, watermark) values (160012, 'Playing one-handed.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160012);
+insert into white_cards (id, text, watermark) values (160013, 'Shipping a fish brick to Ohio.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160013);
+insert into white_cards (id, text, watermark) values (160014, 'The BONE ZONE!', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160014);
+insert into white_cards (id, text, watermark) values (160015, 'The D E V I C E.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160015);
+insert into white_cards (id, text, watermark) values (160016, 'The Turner Lickability Scale.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160016);
+insert into white_cards (id, text, watermark) values (160017, 'Whale dong.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160017);
+insert into white_cards (id, text, watermark) values (160018, 'William Shatner watching you.', 'dbus');
+insert into card_set_white_card (card_set_id, white_card_id) values (160000, 160018);
+
+insert into black_cards (id, text, draw, pick, watermark) values (160000, 'Desert Bus: ____ for the children.', '0', '1', 'dbus');
+insert into card_set_black_card (card_set_id, black_card_id) values (160000, 160000);
+insert into black_cards (id, text, draw, pick, watermark) values (160001, 'I bless ____ down in Africa.', '0', '1', 'dbus');
+insert into card_set_black_card (card_set_id, black_card_id) values (160000, 160001);
+insert into black_cards (id, text, draw, pick, watermark) values (160002, 'Ken "____" Steacy went back into his archives and found his original sketches for ____.', '1', '2', 'dbus');
+insert into card_set_black_card (card_set_id, black_card_id) values (160000, 160002);
+insert into black_cards (id, text, draw, pick, watermark) values (160003, 'The four shifts at Desert Bus: Dawn Guard, Alpha Flight, Night Watch and ____.', '0', '1', 'dbus');
+insert into card_set_black_card (card_set_id, black_card_id) values (160000, 160003);
+insert into black_cards (id, text, draw, pick, watermark) values (160004, 'YOU try explaining ____ to the media!', '0', '1', 'dbus');
+insert into card_set_black_card (card_set_id, black_card_id) values (160000, 160004);
+
+COMMIT;

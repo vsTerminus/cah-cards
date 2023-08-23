@@ -544,7 +544,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (112340,'What s
 insert into black_cards (id, text, draw, pick, watermark) values (112341,'I''ve had a horrible vision, father. I saw mountains crumbling, stars falling from the sky. I saw ____.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112342,'Oh no! Siri, how do I fix ____?', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112343,'Dance like there''s nobody watching, love like you''ll never be hurt, and live like you''re ____.', 0, 1, 'green');
-insert into black_cards (id, text, draw, pick, watermark) values (112344,'Mom''s to-do list:'||chr(10)||'- Buy Groceries'||chr(10)||'Clean up ____.'||chr(10)||'- Soccer Practice.', 0, 1, 'green');
+insert into black_cards (id, text, draw, pick, watermark) values (112344,'Mom''s to-do list:'||chr(10)||'- Buy Groceries'||chr(10)||'- Clean up ____.'||chr(10)||'- Soccer Practice.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112345,'Why am I laughing and crying and taking off my clothes?', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112346,'She''s a lady in the streets, ____ in the sheets.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112347,'What''s about to take dance floor to the next level?', 0, 1, 'green');

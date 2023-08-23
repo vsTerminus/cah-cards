@@ -239,7 +239,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (117026, 'Thank
 insert into card_set_black_card (card_set_id, black_card_id) values (117000, 117026);
 insert into black_cards (id, text, draw, pick, watermark) values (117027, 'The best part of waking up is ____.', '0', '1', 'crab1');
 insert into card_set_black_card (card_set_id, black_card_id) values (117000, 117027);
-insert into black_cards (id, text, draw, pick, watermark) values (117028, 'The last three items on my "bucket list":', '0', '1', 'crab1');
+insert into black_cards (id, text, draw, pick, watermark) values (117028, 'The last three items on my "bucket list":', '2', '3', 'crab1');
 insert into card_set_black_card (card_set_id, black_card_id) values (117000, 117028);
 insert into black_cards (id, text, draw, pick, watermark) values (117029, 'Three bullet points from my OKCupid® profile: ____, ____, and, (most importantly) ____.', '2', '3', 'crab1');
 insert into card_set_black_card (card_set_id, black_card_id) values (117000, 117029);
