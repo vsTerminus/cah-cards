@@ -193,7 +193,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (119010, 'Fuddr
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119010);
 insert into black_cards (id, text, draw, pick, watermark) values (119011, 'Go-Go-Gadget ____!', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119011);
-insert into black_cards (id, text, draw, pick, watermark) values (119012, '"I am ____. I speak for ____."', '0', '1', 'crab4');
+insert into black_cards (id, text, draw, pick, watermark) values (119012, '"I am ____. I speak for ____."', '1', '2', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119012);
 insert into black_cards (id, text, draw, pick, watermark) values (119013, 'I am ____. I represent ____."', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119013);
@@ -231,7 +231,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (119029, 'What 
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119029);
 insert into black_cards (id, text, draw, pick, watermark) values (119030, 'What''s my safe word?', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119030);
-insert into black_cards (id, text, draw, pick, watermark) values (119031, 'You got your ____ in my ____!', '0', '1', 'crab4');
+insert into black_cards (id, text, draw, pick, watermark) values (119031, 'You got your ____ in my ____!', '1', '2', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119031);
 insert into black_cards (id, text, draw, pick, watermark) values (119032, 'You people are sick! There''s nothing funny about ____.', '0', '1', 'crab4');
 insert into card_set_black_card (card_set_id, black_card_id) values (119000, 119032);

@@ -1844,7 +1844,7 @@ insert into white_cards (id, text, watermark) values (125916, 'Parting the Red S
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125916);
 insert into white_cards (id, text, watermark) values (125917, 'Party poopers.', 'base');
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125917);
-insert into white_cards (id, text, watermark) values (125918, 'Passable transvestites.', 'base');
+insert into white_cards (id, text, watermark) values (125918, 'Party people.', 'base');
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125918);
 insert into white_cards (id, text, watermark) values (125919, 'Passing a kidney stone.', 'base');
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125919);
@@ -1876,7 +1876,7 @@ insert into white_cards (id, text, watermark) values (125932, 'Picking up girls 
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125932);
 insert into white_cards (id, text, watermark) values (125933, 'Pictures of boobs.', 'base');
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125933);
-insert into white_cards (id, text, watermark) values (125934, 'Pikies.', 'base');
+insert into white_cards (id, text, watermark) values (125934, 'Pictures of butts.', 'base');
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125934);
 insert into white_cards (id, text, watermark) values (125935, 'Pingers.', 'base');
 insert into card_set_white_card (card_set_id, white_card_id) values (125000, 125935);
@@ -2937,7 +2937,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (125043, 'As th
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125043);
 insert into black_cards (id, text, draw, pick, watermark) values (125044, 'As the mum of five rambunctious boys, I''m no stranger to ____.', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125044);
-insert into black_cards (id, text, draw, pick, watermark) values (125045, 'Betcha can''t have just one!', '0', '1', 'base');
+insert into black_cards (id, text, draw, pick, watermark) values (125045, 'As the mother of ____, I''m no strainger to ____.', '1', '2', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125045);
 insert into black_cards (id, text, draw, pick, watermark) values (125046, 'BILLY MAYS HERE FOR ____.', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125046);
@@ -3393,7 +3393,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (125271, 'What'
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125271);
 insert into black_cards (id, text, draw, pick, watermark) values (125272, 'What''s the next Happy Meal® toy?', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125272);
-insert into black_cards (id, text, draw, pick, watermark) values (125273, 'What''s the next superhero/sidekick duo?', '0', '1', 'base');
+insert into black_cards (id, text, draw, pick, watermark) values (125273, 'What''s the next superhero/sidekick duo?', '1', '2', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125273);
 insert into black_cards (id, text, draw, pick, watermark) values (125274, 'What''s there a ton of in heaven?', '0', '1', 'base');
 insert into card_set_black_card (card_set_id, black_card_id) values (125000, 125274);

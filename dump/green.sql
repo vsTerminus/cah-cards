@@ -70,7 +70,7 @@ insert into white_cards (id, text, watermark) values (112058, 'Whooping your ass
 insert into white_cards (id, text, watermark) values (112059, 'A massive collection of child pornography.', 'green');
 insert into white_cards (id, text, watermark) values (112060, 'Systems and policies designed to preserve centuries-old power structures.', 'green');
 insert into white_cards (id, text, watermark) values (112061, 'Having an awesome time drinking and driving.', 'green');
-insert into white_cards (id, text, watermark) values (112062, 'Muchin'' puss.', 'green');
+insert into white_cards (id, text, watermark) values (112062, 'Munchin'' puss.', 'green');
 insert into white_cards (id, text, watermark) values (112063, 'Moon people.', 'green');
 insert into white_cards (id, text, watermark) values (112064, 'Picking up a glass of water and taking a sip and being the president.', 'green');
 insert into white_cards (id, text, watermark) values (112065, 'Critical thinking.', 'green');
@@ -542,7 +542,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (112338,'She''s
 insert into black_cards (id, text, draw, pick, watermark) values (112339,'This Friday at the Liquid Lunge, it''s ____ Night! Ladies drink free.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112340,'What sucks balls?', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112341,'I''ve had a horrible vision, father. I saw mountains crumbling, stars falling from the sky. I saw ____.', 0, 1, 'green');
-insert into black_cards (id, text, draw, pick, watermark) values (112342,'Oh no! Siri, how do I fix ____?', 0, 1, 'green');
+insert into black_cards (id, text, draw, pick, watermark) values (112342,'Oh no! Cortana, how do I fix ____?', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112343,'Dance like there''s nobody watching, love like you''ll never be hurt, and live like you''re ____.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112344,'Mom''s to-do list:'||chr(10)||'- Buy Groceries'||chr(10)||'- Clean up ____.'||chr(10)||'- Soccer Practice.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112345,'Why am I laughing and crying and taking off my clothes?', 0, 1, 'green');
@@ -550,8 +550,8 @@ insert into black_cards (id, text, draw, pick, watermark) values (112346,'She''s
 insert into black_cards (id, text, draw, pick, watermark) values (112347,'What''s about to take dance floor to the next level?', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112348,'CNN breaking news! Scientists discover ____.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112349,'Most Americans would not vote for a candidate who is openly ____.', 0, 1, 'green');
-insert into black_cards (id, text, draw, pick, watermark) values (112350,'Congratulations! You have been selected for our summer internship program. While we are unable to off a salary, we can off you ____.', 0, 1, 'green');
-insert into black_cards (id, text, draw, pick, watermark) values (112351,'In the 1950s, psychologists prescribed ____ as a cure for homosexually.', 0, 1, 'green');
+insert into black_cards (id, text, draw, pick, watermark) values (112350,'Congratulations! You have been selected for our summer internship program. While we are unable to offer a salary, we can offer you ____.', 0, 1, 'green');
+insert into black_cards (id, text, draw, pick, watermark) values (112351,'In the 1950s, psychologists prescribed ____ as a cure for homosexuality.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112352,'As reparations for slavery, all African Americans will receive ____.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112353,'With a one-time gift of just $10, you can save this child from ____.', 0, 1, 'green');
 insert into black_cards (id, text, draw, pick, watermark) values (112354,'Google Calendar alert: ____ in 10 minutes.', 0, 1, 'green');

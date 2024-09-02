@@ -108,7 +108,7 @@ insert into white_cards (id, text, watermark) values (115048, 'Rabies.', 'X6');
 insert into card_set_white_card (card_set_id, white_card_id) values (115000, 115048);
 insert into white_cards (id, text, watermark) values (115049, 'Reading the entire End-User License Agreement.', 'X6');
 insert into card_set_white_card (card_set_id, white_card_id) values (115000, 115049);
-insert into white_cards (id, text, watermark) values (115050, 'Ripping a dog in half.', 'X6');
+insert into white_cards (id, text, watermark) values (115050, 'Petting the dog.', 'X6');
 insert into card_set_white_card (card_set_id, white_card_id) values (115000, 115050);
 insert into white_cards (id, text, watermark) values (115051, 'Robots who just want to party.', 'X6');
 insert into card_set_white_card (card_set_id, white_card_id) values (115000, 115051);

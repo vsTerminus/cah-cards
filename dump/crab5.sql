@@ -196,7 +196,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (111322, '____:
 insert into black_cards (id, text, draw, pick, watermark) values (111323, 'Thank you Alex, I''ll take ____ for 800.', 0, 1, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111324, 'Could a brother get ____ up in this bitch?', 0, 1, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111325, 'I never karaoke, because I always end up getting drunk and singing a song about ____.', 0, 1, 'crab5');
-insert into black_cards (id, text, draw, pick, watermark) values (111326, 'Why is Jon Steward *really* retiring?', 0, 1, 'crab5');
+insert into black_cards (id, text, draw, pick, watermark) values (111326, 'Why is Jon Stewart *really* retiring?', 0, 1, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111327, 'And behold, the fifth seal opened, and there was ____ and with it came ____.', 0, 2, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111328, 'It''s all about ____ - no ____.', 0, 2, 'crab5');
 insert into black_cards (id, text, draw, pick, watermark) values (111329, 'Why so salty?', 0, 1, 'crab5');

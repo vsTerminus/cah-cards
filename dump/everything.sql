@@ -524,7 +524,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (113510,'Hey, c
 insert into black_cards (id, text, draw, pick, watermark) values (113511,'Holy MOLY! Now THAT''S what I call ____!',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113512,'How am I, the Card Czar, going to die?',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113513,'I only saw my father cry twice: once after Mom died, and once after ____.',0,1,'every');
-insert into black_cards (id, text, draw, pick, watermark) values (113514,'I''m ____, you''re ____, let''s party!',0,1,'every');
+insert into black_cards (id, text, draw, pick, watermark) values (113514,'I''m ____, you''re ____, let''s party!',1,2,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113515,'I''m Ted Cruz, and I''m proud to endorse ____.',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113516,'"I''m that bad type, Make your mama sad type, Might seduce your dad type, I''m ____."',0,1,'every');
 insert into black_cards (id, text, draw, pick, watermark) values (113517,'Incredible! Biologists have discovered an octopus capable of ____.',0,1,'every');

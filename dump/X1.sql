@@ -249,7 +249,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (121006, 'He wh
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121006);
 insert into black_cards (id, text, draw, pick, watermark) values (121007, 'I learned the hard way that you can''t cheer up a grieving friend without ____.', '0', '1', 'X1');
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121007);
-insert into black_cards (id, text, draw, pick, watermark) values (121008, 'In a pinch, ____ can be a suitable substitute for ____.', '0', '1', 'X1');
+insert into black_cards (id, text, draw, pick, watermark) values (121008, 'In a pinch, ____ can be a suitable substitute for ____.', '1', '2', 'X1');
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121008);
 insert into black_cards (id, text, draw, pick, watermark) values (121009, 'In his last self-produced album, Kanye West raps over the sounds of ____.', '0', '1', 'X1');
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121009);
@@ -259,7 +259,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (121011, 'In Ro
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121011);
 insert into black_cards (id, text, draw, pick, watermark) values (121012, 'In the distant future, historians will agree that ____ marked the beginning of America''s decline.', '0', '1', 'X1');
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121012);
-insert into black_cards (id, text, draw, pick, watermark) values (121013, 'Michael Bay''s new three-hour action epic pits ____ against ____.', '0', '1', 'X1');
+insert into black_cards (id, text, draw, pick, watermark) values (121013, 'Michael Bay''s new three-hour action epic pits ____ against ____.', '1', '2', 'X1');
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121013);
 insert into black_cards (id, text, draw, pick, watermark) values (121014, 'My plan for world domination begins with ____ and ____.', '1', '2', 'X1');
 insert into card_set_black_card (card_set_id, black_card_id) values (121000, 121014);

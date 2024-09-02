@@ -183,7 +183,7 @@ insert into black_cards (id, text, draw, pick, watermark) values (122001, 'A rem
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122001);
 insert into black_cards (id, text, draw, pick, watermark) values (122002, 'After months of debate, the Occupy Wall Street General Assembly could only agree on "More ____!"', '0', '1', 'X2');
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122002);
-insert into black_cards (id, text, draw, pick, watermark) values (122003, 'Before ____, all we had was ____.', '0', '1', 'X2');
+insert into black_cards (id, text, draw, pick, watermark) values (122003, 'Before ____, all we had was ____.', '1', '2', 'X2');
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122003);
 insert into black_cards (id, text, draw, pick, watermark) values (122004, 'Before I run for president, I must destroy all evidence of my involvement with ____.', '0', '1', 'X2');
 insert into card_set_black_card (card_set_id, black_card_id) values (122000, 122004);
